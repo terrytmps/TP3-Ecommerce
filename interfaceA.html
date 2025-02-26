@@ -15,10 +15,10 @@
                 <a href="#">LOGO</a>
             </div>
             <nav class="main-nav">
-                <a href="#">Accueil</a>
-                <a href="#">Blogue</a>
-                <a href="#">À propos</a>
-                <a href="#">Nous joindre</a>
+                <a href="#" data-section="home">Accueil</a>
+                <a href="#" data-section="blog">Blogue</a>
+                <a href="#" data-section="about">À propos</a>
+                <a href="#" data-section="contact">Nous joindre</a>
             </nav>
         </div>
     </header>
@@ -26,11 +26,11 @@
     <main class="site-main container">
         <div class="content-area">
             <div class="search-widget-mobile">
-                <input type="search" placeholder="Recherche" aria-label="Search Articles">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="search" id="mobile-search" placeholder="Recherche" aria-label="Search Articles">
+                <button type="submit" id="mobile-search-btn"><i class="fa fa-search"></i></button>
             </div>
 
-            <article class="article">
+            <article class="article" data-category="catégorie-a">
                 <h2 class="article-heading">Titre de l'article</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, velit eu porta tincidunt, risus turpis consequat nunc, in tempus tortor metus a nibh. Maecenas ac mi sollicitudin, tempus ex a, semper quam. Phasellus in magna nec purus consequat molestie ut dictum nisl.</p>
                 <p>Donec odio metus, fringilla eget tortor viverra, molestie porttitor augue. Nam vitae ultrices eros. Praesent nisl sapien, pharetra et lobortis viverra, consectetur sit amet est. Suspendisse feugiat egestas justo sit amet interdum. Vivamus neque felis, auctor id sollicitudin id, vulputate et tortor. Mauris venenatis laoreet elit nec convallis.</p>
@@ -41,7 +41,7 @@
                 </div>
             </article>
 
-            <article class="article">
+            <article class="article" data-category="catégorie-b">
                 <h2 class="article-heading">Titre de l'article</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, velit eu porta tincidunt, risus turpis consequat nunc, in tempus tortor metus a nibh. Maecenas ac mi sollicitudin, tempus ex a, semper quam. Phasellus in magna nec purus consequat molestie ut dictum nisl.</p>
                 <p>Donec odio metus, fringilla eget tortor viverra, molestie porttitor augue. Nam vitae ultrices eros. Praesent nisl sapien, pharetra et lobortis viverra, consectetur sit amet est. Suspendisse feugiat egestas justo sit amet interdum. Vivamus neque felis, auctor id sollicitudin id, vulputate et tortor. Mauris venenatis laoreet elit nec convallis.</p>
@@ -54,19 +54,19 @@
         </div>
         <aside class="sidebar">
             <div class="search-widget">
-                <input type="search" placeholder="Recherche" aria-label="Search Articles">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="search" id="sidebar-search" placeholder="Recherche" aria-label="Search Articles">
+                <button type="submit" id="sidebar-search-btn"><i class="fa fa-search"></i></button>
             </div>
 
             <div class="categories-widget">
                 <h3>Catégories:</h3>
                 <ul class="categories-list">
-                    <li><a href="#">Lien vers catégorie A</a></li>
-                    <li><a href="#">Lien vers catégorie B</a></li>
-                    <li><a href="#">Lien vers catégorie C</a></li>
-                    <li><a href="#">Lien vers catégorie D</a></li>
-                    <li><a href="#">Lien vers catégorie E</a></li>
-                    <li><a href="#">Lien vers catégorie F</a></li>
+                    <li><a href="#" data-filter="catégorie-a">Lien vers catégorie A</a></li>
+                    <li><a href="#" data-filter="catégorie-b">Lien vers catégorie B</a></li>
+                    <li><a href="#" data-filter="catégorie-c">Lien vers catégorie C</a></li>
+                    <li><a href="#" data-filter="catégorie-d">Lien vers catégorie D</a></li>
+                    <li><a href="#" data-filter="catégorie-e">Lien vers catégorie E</a></li>
+                    <li><a href="#" data-filter="catégorie-f">Lien vers catégorie F</a></li>
                 </ul>
             </div>
         </aside>
@@ -79,6 +79,6 @@
         </div>
     </footer>
 
-    <script src="#"></script>
+    <script src="interfaceA.js"></script>
 </body>
 </html>
