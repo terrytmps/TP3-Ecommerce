@@ -1,3 +1,6 @@
+import '../assets/interfaceA.css';
+console.log('Interface A chargée !');
+
 // Utilisation de JavaScript moderne
 document.addEventListener('DOMContentLoaded', function() {
     // Fonctionnalité de recherche

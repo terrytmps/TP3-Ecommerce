@@ -1,3 +1,6 @@
+import '../assets/interfaceB.css';
+console.log('Interface B chargée !');
+
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Interface B chargée');
     
