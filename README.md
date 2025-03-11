@@ -70,21 +70,21 @@ http://localhost:8080/interfaceB.html
 
 ## 📂 **Structure du projet**
 ```
-/mon_projet
-  /src
-    /assets
-      interfaceA.css
-      interfaceB.css
-    /js
-      interfaceA.js
-      interfaceB.js
-    interfaceA.html
-    interfaceB.html
-  /dist              (Fichiers générés après `npm run build`)
-  .gitignore
-  package.json
-  webpack.config.js
-  README.md
+/src
+  /assets
+    interfaceA.css
+    interfaceB.css
+  /js
+    interfaceA.js
+    interfaceB.js
+  interfaceA.html
+  interfaceB.html
+/dist              (Fichiers générés après `npm run build`)
+.gitignore
+package-lock.json
+package.json
+webpack.config.js
+README.md
 ```
 📌 **Chaque page HTML charge uniquement son propre CSS et JS pour une meilleure optimisation.**
 
@@ -119,6 +119,7 @@ http://localhost:8080/interfaceB.html
 
 ## 📢 **Auteur & Contact**
 📧 Contact : 
-- [maim3689@usherbrooke.ca](mailto:maim3689@usherbrooke.ca)
-- [temt8767@usherbrooke.ca](mailto:temt@usherbrooke.ca)\
+- [maim3689@usherbrooke.ca](mailto:maim3689@usherbrooke.ca) | (https://github.com/MateoESEO & https://github.com/Magalios09)
+- [temt8767@usherbrooke.ca](mailto:temt@usherbrooke.ca) | (https://github.com/terrytmps)
+
 📌 Projet **absolument pas** sous licence MIT.
