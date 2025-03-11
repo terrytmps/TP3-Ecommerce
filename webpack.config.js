@@ -29,6 +29,13 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader']
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf|svg)$/, 
+                type: 'asset/resource',
+                generator: {
+                    filename: 'fonts/[name][ext]'
+                }
             }
         ]
     },

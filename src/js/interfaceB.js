@@ -1,4 +1,5 @@
 import '../assets/interfaceB.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 console.log('Interface B chargée !');
 
 document.addEventListener('DOMContentLoaded', function() {
