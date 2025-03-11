@@ -1,10 +1,7 @@
 import '../assets/interfaceB.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-console.log('Interface B chargée !');
 
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Interface B chargée');
-    
+document.addEventListener('DOMContentLoaded', function() {    
     // Effet au survol des cartes
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {

@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
     entry: {
@@ -53,6 +55,11 @@ module.exports = {
             template: './src/interfaceB.html',
             filename: 'interfaceB.html',
             chunks: ['interfaceB'] 
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'src/assets/favicon.ico', to: 'favicon.ico' } // Copie le favicon à la racine de dist/
+            ]
         })
     ],
     devServer: {
