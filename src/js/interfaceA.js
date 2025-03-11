@@ -1,3 +1,6 @@
+import '../assets/interfaceA.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 // Utilisation de JavaScript moderne
 document.addEventListener('DOMContentLoaded', function() {
     // Fonctionnalité de recherche
