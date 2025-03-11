@@ -120,9 +120,5 @@ http://localhost:8080/interfaceB.html
 ## 📢 **Auteur & Contact**
 📧 Contact : 
 - [maim3689@usherbrooke.ca](mailto:maim3689@usherbrooke.ca)
-- [temt8767@usherbrooke.ca](mailto:temt@usherbrooke.ca)
+- [temt8767@usherbrooke.ca](mailto:temt@usherbrooke.ca)\
 📌 Projet **absolument pas** sous licence MIT.
-
----
-🔥 **Bon développement et bonne utilisation de Webpack !** 🚀
-
